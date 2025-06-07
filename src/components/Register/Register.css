@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap');
+
+.register-container {
+  font-family: 'Outfit', sans-serif;
+}
+
+.register-header {
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  background: linear-gradient(to right, #dff3fd, #b4e0f5);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.login-icon img {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.login-icon img:hover {
+  transform: scale(1.1);
+}
+
+.register-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  background: linear-gradient(to bottom right, #dff3fd, #b4e0f5);
+}
+
+.register-card {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 400px;
+  animation: zoomIn 0.7s ease;
+}
+
+.register-card h2 {
+  text-align: center;
+  color: #6e9fd0;
+  margin-bottom: 1.5rem;
+}
+
+.register-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.register-card input {
+  padding: 0.8rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.register-card input:focus {
+  outline: none;
+  border-color: #2aaed9;
+  box-shadow: 0 0 5px rgba(42, 174, 217, 0.5);
+}
+
+.register-card button[type="submit"] {
+  background: linear-gradient(to right, #4dc9f6, #38b6ff);
+  color: white;
+  padding: 0.9rem;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.register-card button[type="submit"]:hover {
+  background: linear-gradient(to right, #38b6ff, #249dd9);
+}
+
+/* Контейнер для двух ссылок */
+.register-links {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+/* Стиль кнопок-ссылок */
+.btn-already-account,
+.btn-forgot-password {
+  background: transparent;
+  border: none;
+  color: #357ABD; /* цвет текста */
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+  padding: 0;
+}
+
+.btn-already-account:hover,
+.btn-forgot-password:hover {
+  color: #1d4e8c;
+}
+
+/* Анимации (как у тебя в main.css) */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(-100px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+@keyframes zoomIn {
+  from { transform: scale(0.95); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+.fadeIn {
+  animation: fadeIn 0.6s ease forwards;
+}
+.slideInLeft {
+  animation: slideInLeft 0.6s ease forwards;
+}
+.zoomIn {
+  animation: zoomIn 0.6s ease forwards;
+}
