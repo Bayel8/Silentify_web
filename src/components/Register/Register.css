@@ -92,7 +92,8 @@
 
 /* Стиль кнопок-ссылок */
 .btn-already-account,
-.btn-forgot-password {
+.btn-forgot-password,
+.google_email{
   background: transparent;
   border: none;
   color: #357ABD; /* цвет текста */

@@ -21,7 +21,7 @@ const Profile = () => {
     <div style={{ padding: "2rem", textAlign: "center" }}>
       <h2>Профиль</h2>
       <p>Email: {user.email}</p>
-      <p>UID: {user.uid}</p>
+      
     </div>
   );
 };
