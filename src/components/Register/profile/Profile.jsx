@@ -19,9 +19,12 @@ const Profile = () => {
 
   return (
     <div style={{ padding: "2rem", textAlign: "center" }}>
+     {/* пишешь от сюда */}
       <h2>Профиль</h2>
       <p>Email: {user.email}</p>
+       
       
+{/* до сюда */}
     </div>
   );
 };

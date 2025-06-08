@@ -2,11 +2,11 @@ import React from "react";
 import "./about.css";
 
 const teamMembers = [
-  { name: "Байэл Жумакадыров", role: "Фронтенд", img: "/img/photo.jpg" },
-  { name: "Ислам Махмудов", role: "Бэкенд", img: "/img/photo.jpg" },
+  { name: "Байэл Жумакадыров", role : "Бэкенд", img: "/img/photo.jpg" },
+  { name: "Ислам Махмудов", role: "Фронтенд", img: "/img/photo.jpg" },
   { name: "Нуртилек Баргыбаев", role: "Дизайн", img: "/img/photo.jpg" },
-  { name: "Куттубай Искаков", role: "Контент", img: "/img/photo.jpg" },
-  { name: "Нурбийке Бердибекова", role: "Исследование", img: "/img/photo.jpg" },
+  { name: "Куттубай Искаков", role: "Бэкенд", img: "/img/photo.jpg" },
+  { name: "Нурбийке Бердибекова", role: "Азбука", img: "/img/photo.jpg" },
   { name: "Перизат Байызбекова", role: "Продвижение", img: "/img/photo.jpg" }
 ];
 
