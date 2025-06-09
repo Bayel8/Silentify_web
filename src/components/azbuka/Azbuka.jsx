@@ -2,9 +2,10 @@ import React from "react";
 import "./azbuka.css";
 
 const videos = [
-  "dR5k0lr2DQg", // Пример видео с YouTube
-  "7T6lY9VURtA", // Добавь свои ID видео
-  "wzX2PLg_-G4",
+  "https://youtu.be/C0rRwjGkZ-I?si=49JwyFrNdbgVv9HR", // Пример видео с YouTube
+  
+  "7T6lY9VUhttps://youtu.be/C0rRwjGkZ-I?si=zmkMTtWE7QlqOfGotA", // Добавь свои ID видео
+  "wzX2PLg_-Ghttps://youtu.be/ct2IjG651NA?si=JSbN1dvaHY5ShVzo",
 ];
 
 // Алфавит с жестами для букв и слов
